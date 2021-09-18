@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
+import Info from '../../components/Info'
+import Newsletter from '../../components/Newsletter'
+import Price from '../../components/Price'
 
 import Topbar from "../../components/TabBar"
+import Testemunho from '../../components/Testemulho'
+import Products from '../Products'
 
 const Home = () => {
     return (
-        <Topbar />
+        <Fragment>
+            <Topbar />
+            <Header />
+            <Info />
+            <Products />
+            <Price />
+            <Testemunho />
+            <Newsletter />
+            <Footer />
+        </Fragment>
     )
 }
 

@@ -1,10 +1,26 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { Container, ContainerItems, MenuLogo, NavMenu } from "./styles"
 
 const Header = () => {
     return (
-        <Fragment>
-            header text
-        </Fragment>
+        <Container>
+            <ContainerItems>
+                <MenuLogo>
+                    <Link to="/">
+                        FlexBlog
+                    </Link>
+                </MenuLogo>
+                <NavMenu>
+                    <ul>
+                        <li><Link to="/sobre">Sobre</Link></li>
+                        <li><Link to="/produtos">Produtos</Link></li>
+                        <li><Link to="/preco">Preço</Link></li>
+                        <li><Link to="qualidade">Qualidade</Link></li>
+                    </ul>
+                </NavMenu>
+            </ContainerItems>
+        </Container>
     )
 }
 

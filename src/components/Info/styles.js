@@ -4,6 +4,5 @@ export const Container = styled.section`
   
 `;
 
-export const ContainerItems = styled.div`
-  
-`;
+
+
