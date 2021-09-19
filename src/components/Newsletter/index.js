@@ -10,7 +10,7 @@ const Newsletter = () => {
                 <p>Assine e fique por dentro das novidades</p>
             </div>
 
-            <form>
+            <form className="newsletter-form">
                 <input type="text" placeholder="digite seu email" />
                 <button type="submit">Assinar</button>
             </form>

@@ -5,7 +5,7 @@ import { Container } from "./styles"
 function Footer() {
     return (
         <Container>
-            FlexBlog Todos os direiros reservados
+            <p>FlexBlog Todos os direiros reservados</p>
         </Container>
     )
 }

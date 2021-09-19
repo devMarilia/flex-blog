@@ -6,7 +6,7 @@ import Newsletter from '../../components/Newsletter'
 import Price from '../../components/Price'
 
 import Topbar from "../../components/TabBar"
-import Testemunho from '../../components/Testemulho'
+import Testemunho from '../../components/Testemunho'
 import Products from '../Products'
 
 const Home = () => {
