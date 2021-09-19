@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
   --gray-secundery: #a4a4a4;
   --purple: #ae81ff;
   --pink: #f9265e;
+  --black: #000000;
 }
   * {
     margin: 0;
