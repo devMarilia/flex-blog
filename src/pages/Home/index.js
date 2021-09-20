@@ -7,7 +7,7 @@ import Price from '../../components/Price'
 
 import Topbar from "../../components/TabBar"
 import Testemunho from '../../components/Testemunho'
-import Products from '../Products'
+// import Products from '../Products'
 
 const Home = () => {
     return (
@@ -15,7 +15,7 @@ const Home = () => {
             <Topbar />
             <Header />
             <Info />
-            <Products />
+            {/* <Products /> */}
             <Price />
             <Testemunho />
             <Newsletter />
